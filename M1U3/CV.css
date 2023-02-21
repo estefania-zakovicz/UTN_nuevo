@@ -1,0 +1,57 @@
+h1{
+color: black;
+font-family: Papyrus;
+background-color: rgb(216, 171, 197);
+text-align: center;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+h2{
+color: rgb(25, 5, 43);
+font-family: Times New Roman;
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../../media/examples/lizard.png");     
+font-size: 23px;
+}
+
+p{
+color: rgb(15, 1, 1);
+font-family: Franklin;
+font-size: 14px;
+}
+
+.celeste{
+    color: rgb(255, 0, 157);
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#verde{
+    width: 1000px;
+    height: 10px;
+    background-color: white;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid royalblue;
+    
+}
+
+#negro{
+    width: 150px;
+    height: 110px;
+    background-color: rgb(120, 236, 164);
+    color: rgb(19, 103, 177);
+    text-align: center;
+    font-family: Geneva;
+    font-size: 20px;
+    margin: 50px;
+    
+}
+
