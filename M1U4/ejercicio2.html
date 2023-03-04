@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+// Definimos un array de números
+const numeros = [10, 23, 5, 67, 3, 100, 2];
+
+// Inicializamos la variable `mayor` con el primer elemento del array
+let mayor = numeros[0];
+
+// Recorremos el array con un bucle for, empezando en la segunda posición
+for (let i = 1; i < numeros.length; i++) {
+  // Si el elemento actual es mayor que el valor de la variable `mayor`, actualizamos `mayor`
+  if (numeros[i] > mayor) {
+    mayor = numeros[i];
+  }
+}
+
+console.log(`El número mayor del array es: ${mayor}`);
+
+
+</script>
+
+    
+</body>
+</html>
