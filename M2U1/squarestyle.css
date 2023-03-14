@@ -1,0 +1,13 @@
+
+
+.square {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+
+    background-color: red;
+    text-align: center;
+
+}
