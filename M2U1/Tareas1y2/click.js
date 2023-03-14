@@ -1,14 +1,16 @@
-function CambiarColor (color) {  //función para cambiar el color del fondo
-    document.style.body.backgroundColor = color;
+
+
+function cambiarColor (color) {
+
+document.body.style.backgroundColor = color;
 }
 
-//eventos que tengo que añadir en cada cuadrado
-
 document.getElementById("cuadrado1").addEventListener("click", function() {
-    CambiarColor("red");})
-
-document.getElementById("cuadrado2").addEventListener("click", function() {
-    CambiarColor("violet");})
-
-document.getElementById("cuadrado3").addEventListener("click", function() {
-    CambiarColor("yellow");})
+    cambiarColor("violet");
+  });
+  document.getElementById("cuadrado2").addEventListener("click", function() {
+    cambiarColor("green");
+  });
+  document.getElementById("cuadrado3").addEventListener("click", function() {
+    cambiarColor("red");
+  });
